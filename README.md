@@ -1,5 +1,8 @@
 ## Features
 A console debugger like laravel artisan tinker
+
++ REPL
++ Powerful Dumper
 ## Installation
 ```
 composer require "luoxiaojun1992/yii2-tinker:*"
