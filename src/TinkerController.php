@@ -16,17 +16,7 @@ class TinkerController extends Controller
 {
     public function init()
     {
-        if (!function_exists('dd')) {
-            function dd()
-            {
-                array_map(function($x)
-                {
-                    (new Dumper())->dump($x);
-                }, func_get_args());
-
-                exit(1);
-            }
-        }
+        require(__DIR__ . DIRECTORY_SEPARATOR . 'Functions.php');
 
         parent::init();
     }
