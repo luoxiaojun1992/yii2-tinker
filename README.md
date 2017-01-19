@@ -1,3 +1,5 @@
+## Features
+Like Laravel Artisan Tinker
 ## Installation
 ```
 composer require "luoxiaojun1992/yii2-tinker:*"
