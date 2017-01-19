@@ -16,7 +16,7 @@ class TinkerController extends Controller
 {
     public function init()
     {
-        if (!funciton_exists('dd')) {
+        if (!function_exists('dd')) {
             function dd()
             {
                 array_map(function($x)
