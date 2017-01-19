@@ -1,5 +1,5 @@
 ## Features
-Like Laravel Artisan Tinker
+A console debugger like laravel artisan tinker
 ## Installation
 ```
 composer require "luoxiaojun1992/yii2-tinker:*"
