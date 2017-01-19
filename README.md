@@ -27,3 +27,18 @@ $config = [
 ```
 ## Usage
 execute ```./yii tinker``` in your application's root folder
+
+Example:
+
+```
+Psy Shell v0.8.1 (PHP 7.0.14 — cli) by Justin Hileman
+>>> Yii::$app->params['adminEmail']
+=> "admin@example.com"
+>>> dd([1=>'a', 2=>'b', 3=>'c'])
+array:3 [
+  1 => "a"
+  2 => "b"
+  3 => "c"
+]
+>>> 
+```
