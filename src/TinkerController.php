@@ -14,6 +14,23 @@ use \yii\console\Controller;
  */
 class TinkerController extends Controller
 {
+    public function init()
+    {
+        if (!funciton_exists('dd')) {
+            function dd()
+            {
+                array_map(function($x)
+                {
+                    (new Dumper())->dump($x);
+                }, func_get_args());
+
+                exit(1);
+            }
+        }
+
+        parent::init();
+    }
+
     /**
      * This command echoes what you have entered as the message.
      * @param string $message the message to be echoed.
