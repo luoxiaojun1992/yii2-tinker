@@ -1,0 +1,35 @@
+{
+  "name": "luoxiaojun1992/yii2-tinker",
+  "description": "Yii2 Tinker",
+  "keywords": [
+    "yii2",
+    "tinnker"
+  ],
+  "type": "library",
+  "license": "Apache",
+  "authors": [
+    {
+      "name": "Xiaojun Luo",
+      "email": "luoxiaojun1992@sina.cn",
+      "homepage": "http://www.luoxiaojun1992.biz/",
+      "role": "Founder and project lead"
+    }
+  ],
+  "support": {
+    "source": "https://github.com/luoxiaojun1992/yii2-tinker.git"
+  },
+  "require": {
+    "php": ">=5.4.0",
+    "yiisoft/yii2": "*",
+    "symfony/var-dumper": "*",
+    "psy/psysh": "*"
+  },
+  "autoload": {
+    "psr-4": {"Yii2Tinker\\": ""}
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.1.x-dev"
+    }
+  }
+}
