@@ -26,5 +26,8 @@
   },
   "autoload": {
     "psr-4": {"Yii2Tinker\\": "src/"}
+  },
+  "extra": {
+    "bootstrap": "\\Yii2Tinker\\Bootstrap"
   }
 }

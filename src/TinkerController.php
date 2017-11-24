@@ -9,7 +9,7 @@ use \yii\console\Controller;
  *
  * This command is provided as an example for you to learn how to create console commands.
  *
- * @author Qiang Xue <qiang.xue@gmail.com>
+ * @author Roy <luoxiaojun1992@sina.cn>
  * @since 2.0
  */
 class TinkerController extends Controller
