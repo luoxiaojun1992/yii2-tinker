@@ -5,7 +5,7 @@
     "yii2",
     "tinker"
   ],
-  "type": "library",
+  "type": "yii2-extension",
   "license": "Apache",
   "authors": [
     {

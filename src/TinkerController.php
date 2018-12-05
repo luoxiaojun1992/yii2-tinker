@@ -28,6 +28,9 @@ class TinkerController extends Controller
     public function actionIndex()
     {
         $_SERVER['argv'] = [];
+        $_SERVER['argc'] = 0;
+        $argv = [];
+        $argc = 0;
 
         // And go!
         call_user_func(\Psy\bin());
