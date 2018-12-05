@@ -12,6 +12,10 @@ A console debugger like laravel artisan tinker
 composer require "luoxiaojun1992/yii2-tinker:*"
 ```
 ## Configuration
+Don't need any configuration.
+
+If the command doesn't work, add the following configuration manually.
+
 config/console.php
 ```
 ...

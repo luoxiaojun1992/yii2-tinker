@@ -21,8 +21,8 @@
   "require": {
     "php": ">=5.4.0",
     "yiisoft/yii2": "*",
-    "symfony/var-dumper": "*",
-    "psy/psysh": "*"
+    "symfony/var-dumper": "4.2.0",
+    "psy/psysh": "0.9.9"
   },
   "autoload": {
     "psr-4": {"Yii2Tinker\\": "src/"}
