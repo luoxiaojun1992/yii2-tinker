@@ -6,7 +6,7 @@
     "tinker"
   ],
   "type": "yii2-extension",
-  "license": "Apache",
+  "license": "apache-2.0",
   "authors": [
     {
       "name": "Xiaojun Luo",
@@ -22,7 +22,7 @@
     "php": ">=5.4.0",
     "yiisoft/yii2": "*",
     "symfony/var-dumper": "4.2.0",
-    "psy/psysh": "0.9.9"
+    "psy/psysh": "0.10.5 | 0.9.9"
   },
   "autoload": {
     "psr-4": {"Yii2Tinker\\": "src/"}
